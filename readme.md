@@ -2,29 +2,14 @@
 
 ### Available commands:
 
-Initialize new chain. Node identifier is picked from `NODE_ID` env variable:
-- `./bin/chain create`
-
-Start node:
-- `./bin/chain start --miner={true/false}`
-
-Reindex UTXO database:
-- `./bin/chain reindex`
-
-Create wallet:
-- `./bin/chain create-wallet`
-
-List local wallet addresses:
-- `./bin/chain addr`
-
-See address balance:
-- `./bin/chain balance --addr {wallet_address}`
-
-Send transaction:
-- `./bin/chain send -from {from_addr} -to {to_addr} -amount {amount}`
-
-Print local chain with all blocks and transactions:
-- `./bin/chain print`
+`./bin/chain create` Initialize new chain. Node identifier is picked from `NODE_ID` env variable.
+`./bin/chain start --miner={true/false}` Start node.
+`./bin/chain reindex` Reindex UTXO database
+`./bin/chain create-wallet` Create wallet
+`./bin/chain addr` List local wallet addresses
+`./bin/chain balance --addr {wallet_address}` See address balance
+`./bin/chain send -from {from_addr} -to {to_addr} -amount {amount}` Send transaction
+`./bin/chain print` Print local chain with all blocks and transactions
 
 
 ### Libraries used
