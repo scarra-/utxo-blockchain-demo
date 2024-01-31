@@ -1,5 +1,7 @@
 ## UTXO based blockhain in Go
 
+<img width="1000" alt="Screenshot 2024-01-31 at 18 54 02" src="https://github.com/scarra-/utxo-blockchain-demo/assets/10938706/c133c00f-da84-4a27-80d2-13ff11742032">
+
 ### Available commands:
 
 - `./bin/chain create` Initialize new chain. Node identifier is picked from `NODE_ID` env variable.
